@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+header{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    text-align:center;
+    height:50px;
+}
+
+.links{
+    display:inline-block;
+    height:100%;
+}
+
+.project-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.contact-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+.project{
+    display: inline-block;
+}
+
+.page-title{
+    padding: 0px 25px;
+    line-height: 46px;
+    background-color:#4aaaa5;
+    color:#fff;
+    display:inline-block;
+    margin-right:673px;
+    height:100%;
+    font-size:18px;
+}
+
+section{
+    background-color:#eee;
+    height:1000px;
+    padding:1px;
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+    padding: 12px 0px;
+    letter-spacing: 0.2px;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+}
+.main-content{
+    background-color:white;
+    width:970px;
+    margin:0 auto;
+    margin-top: 100px;
+    padding-bottom: 25px;
+
+
+}
+
+.portfolio-content{
+    background-color:white;
+    width:970px;
+    margin:0 auto;
+    margin-top: 50px;
+    padding-bottom: 25px;
+
+
+}
+
+.contact-content{
+    background-color:white;
+    width:970px;
+    margin:0 auto;
+    margin-top: 30px;
+    padding-bottom: 25px;
+
+}
+
+footer{
+    background-color:#666;
+    border-top: 4px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    line-height: 80px;
+    font-size: 12px;
+}
+
+
+a, a:visited, a:hover{
+    color: darkgrey;
+}
+
+.image-1 {
+    -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                    transform: rotate(90deg);
+
+    position:relative;
+    float: left;
+    width: 130px;
+    margin-top: 15px;
+}
+
+.submit-button {
+    background-color:#4aaaa5;
+    color:#fff;
+    display:inline-block;
+    padding: 0px 25px;
+    line-height: 46px;
+}
+
+h2{
+    color:lightslategray
+}
+
+p{
+    color: lightslategrey
+}
